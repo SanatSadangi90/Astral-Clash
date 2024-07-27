@@ -15,7 +15,7 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         textComponent.text = string.Empty;
-        StartDialogue();
+        StartDialogue(); // starts the Dialogue
     }
 
     // Update is called once per frame
@@ -25,7 +25,7 @@ public class NewBehaviourScript : MonoBehaviour
         {
             if (textComponent.text == lines[index])
             {
-                NextLine();
+                NextLine(); // goes to next line after text reaches the end of textbox
             }
             else
             {
