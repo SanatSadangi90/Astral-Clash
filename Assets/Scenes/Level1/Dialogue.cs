@@ -6,16 +6,20 @@ using TMPro;
 public class NewBehaviourScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    public TextMeshProUGUI textComponent;
-    public string[] lines;
-    public float textSpeed;
+    public TextMeshProUGUI speechBoxComponent;
+    public TextMeshProUGUI nameBoxComponent;
+    public string[] speechLines;
+    public string[] nameLines;
+    public float speechBoxSpeed;
 
     private int index;
 
     void Start()
     {
-        textComponent.text = string.Empty;
-        StartDialogue(); // starts the Dialogue
+        // Sets both text boxes to empty
+        nameBoxComponent.text = string.Empty;
+        speechBoxComponent.text = string.Empty;
+        StartDialogue(); // Starts the Dialogue
     }
 
     // Update is called once per frame
@@ -23,41 +27,46 @@ public class NewBehaviourScript : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (textComponent.text == lines[index])
+            // If the text in the speech box is finished, the program displays the next character's name and dialogue
+            if (speechBoxComponent.text == speechLines[index])
             {
-                NextLine(); // goes to next line after text reaches the end of textbox
+                NextLine();
             }
+            // Otherwise, the program stops the coroutines and completes the name and speech text
             else
             {
                 StopAllCoroutines();
-                textComponent.text = lines[index];
+                nameBoxComponent.text = nameLines[index];
+                speechBoxComponent.text = speechLines[index];
             }
         }
     }
 
     void StartDialogue(){
         index = 0;
-        StartCoroutine(TypeLine());
-        // If the player clicks the mouse and the lines array is not out of lines, the program prints a line from the line array
+        StartCoroutine(TypeInfo());
+        // If the player clicks the mouse and the speechLines array is not out of speechLines, the program prints a line from the line array
         // It also sets the index to the next line in the array
-        
+
     }
 
-    IEnumerator TypeLine(){
-
+    IEnumerator TypeInfo(){
+        // Displays the name of the character in the array
+        nameBoxComponent.text = nameLines[index];
         // Type each character from a line one at a time
-        foreach (char c in lines[index].ToCharArray()){
-            textComponent.text += c;
-            yield return new WaitForSeconds(textSpeed);
+        foreach (char c in speechLines[index].ToCharArray()){
+            speechBoxComponent.text += c;
+            yield return new WaitForSeconds(speechBoxSpeed);
         }
     }
     void NextLine()
     {
-        if (index < lines.Length - 1)
+        if (index < speechLines.Length - 1)
         {
             index++;
-            textComponent.text = string.Empty;
-            StartCoroutine(TypeLine());
+            nameBoxComponent.text = string.Empty;
+            speechBoxComponent.text = string.Empty;
+            StartCoroutine(TypeInfo());
         }
         else
         {
