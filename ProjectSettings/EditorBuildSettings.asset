@@ -9,12 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenuContents/TitleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Dialogo/Dialoge Test.unity
-    guid: b8cda5a207d3feb46a0e0b0124644465
+    path: Assets/Scenes/LevelSelectContents/LevelSelect.unity
+    guid: da087eb7d3594f1499c92cc34df5a2e2
   - enabled: 1
     path: Assets/Scenes/SettingsContents/Settings.unity
     guid: 822aa9ce1914ddf4b8ebf9212cd3264c
   - enabled: 1
     path: Assets/Scenes/CreditsContents/Credits.unity
     guid: 26a6f1c992172e24e8e7b28e8d5ccc48
+  - enabled: 1
+    path: Assets/Scenes/Level1/Level1Part1.unity
+    guid: b8cda5a207d3feb46a0e0b0124644465
   m_configObjects: {}
