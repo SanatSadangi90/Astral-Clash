@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class NewBehaviourScript : MonoBehaviour
@@ -10,6 +12,8 @@ public class NewBehaviourScript : MonoBehaviour
     public TextMeshProUGUI nameBoxComponent;
     public string[] speechLines;
     public string[] nameLines;
+    public Image background;
+    public Sprite[] backgroundSprites;
     public float speechBoxSpeed;
 
     private int index;
@@ -37,6 +41,7 @@ public class NewBehaviourScript : MonoBehaviour
             {
                 StopAllCoroutines();
                 nameBoxComponent.text = nameLines[index];
+                background.sprite = backgroundSprites[index];
                 speechBoxComponent.text = speechLines[index];
             }
         }
@@ -53,6 +58,7 @@ public class NewBehaviourScript : MonoBehaviour
     IEnumerator TypeInfo(){
         // Displays the name of the character in the array
         nameBoxComponent.text = nameLines[index];
+        background.sprite = backgroundSprites[index];
         // Type each character from a line one at a time
         foreach (char c in speechLines[index].ToCharArray()){
             speechBoxComponent.text += c;
@@ -70,7 +76,8 @@ public class NewBehaviourScript : MonoBehaviour
         }
         else
         {
-            gameObject.SetActive(false);
+            // Put transition to encounter here
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
