@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.8225, y: -1.6215}
-  m_SizeDelta: {x: 871.5551, y: 51.484}
+  m_AnchoredPosition: {x: 3.2313, y: -1.6215}
+  m_SizeDelta: {x: 820.3375, y: 51.484}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &186781489
 MonoBehaviour:
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 8.110504, w: 4.5906944}
+  m_margin: {x: 4.3083496, y: 2.1541557, z: 1.6481018, w: -0.7946968}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -333,122 +333,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432655525}
   m_CullTransparentMesh: 1
---- !u!1 &690368500
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 690368501}
-  m_Layer: 0
-  m_Name: Background
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &690368501
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 690368500}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 528.66815, y: 163.25299, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 823382843}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &823382842
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 823382843}
-  - component: {fileID: 823382844}
-  m_Layer: 0
-  m_Name: Background1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &823382843
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 823382842}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -91.8927, y: 29.7266, z: 0}
-  m_LocalScale: {x: 145.37488, y: 90.82531, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 690368501}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &823382844
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 823382842}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 783dc44eed3a94349a5abc781a250b84, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5.98, y: 4.2}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1192069809
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,18 +365,139 @@ MonoBehaviour:
   speechBoxComponent: {fileID: 186781489}
   nameBoxComponent: {fileID: 1811370713}
   speechLines:
-  - Among us
-  - Buy our game
-  - Joseph was here
+  - After a 12-story elevator ride, Colin exited the doors to his apartment complex.
+  - 'This is it: the beginning of my many years of punishment.'
+  - "(You finally heave Brandon\u2019s trombone case out the door.)"
+  - "And speaking of punishment, I got your stupid trombone case out of the door!
+    Seriously, why would you pick an instrument that weighs the size of a baby elephant
+    and sounds like it\u2019s dying?"
+  - (Brandon casually hands you your flute case.)
+  - "When it comes to most things in life, you have to go big or go home, best buddy!
+    And you still haven\u2019t told me why you picked a flute for your instrument!
+    That instrument\u2019s for girls, not cool guys like us!"
+  - "(Going to this \u201Cacademy for the troubled\u201D is already painful. But
+    that and dealing with Brandon\u2019s \u201Cepic trombone solos\u201D is enough
+    to make me wish I died.)"
+  - I told you a thousand times, the flute is a gift!
+  - "You\u2019ll never tell me where the flute came from anyway! Not that it matters
+    since whenever I\u2019m doing the band practice we\u2019re supposed to be doing,
+    you just stare at your flute and sulk!"
+  - "I said I\u2019m fine! You don\u2019t need to poke around in everyone else\u2019s
+    business!"
+  - "Okay, okay I won\u2019t! Speaking of band practice, maybe if we try hard enough,
+    we could start the school year off with a bang by impressing the ladies!"
+  - "The noise complaints our neighbors filed would say otherwise\u2026"
+  - How was I supposed to know they were calling their parents? If you ask me, they
+    have sensitive hearing.
+  - True.
+  - Either that or their music taste is worse than ours.
+  - That could be true as well.
+  - "Anyways, the bus stop shouldn\u2019t be too far ahead."
+  - " What kind of people waste their time doing band? I\u2019m surprised you two
+    losers got this far in life!"
+  - (Oh great, Brian and his freakshow arrived.)
+  - "(snatches the flute case from Colin) Seriously, what kind of guy would go out
+    of their way to play a girl\u2019s instrument?"
+  - "That\u2019s what I tried to tell him\u2026"
+  - Brandon! Stop agreeing with them!
+  - '*magical flute glowing sounds*'
+  - Whoa!
+  - "So he does have the Heavenly Talisman after all\u2026"
+  - Heavenly what-now?
+  - ".(No, no, no! He can\u2019t know about this! I\u2019ll be damned if anyone else
+    (or even Brandon) gets hurt because of that\u2026 incident I caused earlier!)"
+  - Boys, we can do this the easy way or the hard way. Hand over the flute and you
+    two can walk away without losing any blood.
+  - Hell no! Colin needs that for band practice, and stop calling it a heavenly whatever!
+  - "Talisman, and I won\u2019t ask a second time, Brandon. Hand it over now! (Lincoln
+    and his gang edge closer)"
+  - "Brandon, you don\u2019t have to get involved in this! This is my fi-!"
+  - "OUR fight! Colin got this as a gift, and if it\u2019s important to Colin, then
+    it\u2019s important to me! So, back the hell up unless you want to get the wrong
+    end of my trombone case!"
+  - " (snatches his flute case back from Lincoln) I can\u2019t believe I\u2019m saying
+    this, but Brandon\u2019s right! If you want this blade\u2026"
+  - '*transforming sounds*'
+  - "Then you\u2019ll have to take it from me!"
+  - The hard way it is, then.
+  - "(grabs trombone case) Just when I thought the first day of school would be boring\u2026"
   nameLines:
-  - Sanat
-  - John
-  - Joseph
+  - Narrator
+  - Colin
+  - Narrator
+  - Colin
+  - Narrator
+  - Brandon
+  - Colin
+  - Colin
+  - Brandon
+  - Colin
+  - Brandon
+  - Colin
+  - Brandon
+  - Colin
+  - Brandon
+  - Colin
+  - Brandon
+  - Brian
+  - Colin
+  - Bully 1
+  - Brandon
+  - Colin
+  - Narrator
+  - Bully 2
+  - Brian
+  - Brandon
+  - Colin
+  - Brian
+  - Brandon
+  - Brian
+  - Colin
+  - Brandon
+  - Colin
+  - Narrator
+  - Colin
+  - Brian
+  - Brandon
   background: {fileID: 2079665234}
   backgroundSprites:
   - {fileID: 21300000, guid: 933cf2321bd15754d8501693bc1adbb7, type: 3}
   - {fileID: 21300000, guid: 5c99706afc4ae5c498726ac04cd34d71, type: 3}
   - {fileID: 21300000, guid: 9cfedc8f53bbf72498d209cadac6b446, type: 3}
+  - {fileID: 21300000, guid: b6ff4919fef78334eadd58605f783b3c, type: 3}
+  - {fileID: 21300000, guid: aa088399c8914e14d82e07b16868f71d, type: 3}
+  - {fileID: 21300000, guid: f09804571c9b2224c90ee2d4321e7062, type: 3}
+  - {fileID: 21300000, guid: e3cc6a435d433f14cbf21c301ec23647, type: 3}
+  - {fileID: 21300000, guid: e9daab972ac6b994f8cffffe236f1e29, type: 3}
+  - {fileID: 21300000, guid: 63483e192a0e53540868543407aa85b4, type: 3}
+  - {fileID: 21300000, guid: 7183bae5e33704546aaabf36fea1a5cf, type: 3}
+  - {fileID: 21300000, guid: 44270c3a75ec11844990ae1c03667c84, type: 3}
+  - {fileID: 21300000, guid: 9625222e118872f42a76d8d7324da585, type: 3}
+  - {fileID: 21300000, guid: 5bed9012816a3144a9d096dd83a14897, type: 3}
+  - {fileID: 21300000, guid: 3bc5f4bfd59547e409d9bfb25e806428, type: 3}
+  - {fileID: 21300000, guid: 27d5869caf17cb84a86f7a0f28d43684, type: 3}
+  - {fileID: 21300000, guid: 3d6ef0c30c656824188ac2fe33826f00, type: 3}
+  - {fileID: 21300000, guid: 40b585ce72095fe4aa3d1aff9cf6aff9, type: 3}
+  - {fileID: 21300000, guid: 430591fcebe5f5b488167d2047c857ea, type: 3}
+  - {fileID: 21300000, guid: 3009c37879836234fa758d371219bc48, type: 3}
+  - {fileID: 21300000, guid: 97c6bbed94ae86a4a8b726c5aa2e5624, type: 3}
+  - {fileID: 21300000, guid: 839f180306170a64a912c3bd830a57ad, type: 3}
+  - {fileID: 21300000, guid: 43b9c5c60de1a8d49be96871d6b44ed4, type: 3}
+  - {fileID: 21300000, guid: 044d434c5559e2b42a56f6c2b3ccb30c, type: 3}
+  - {fileID: 21300000, guid: d69f2f50f80806e469f8ef1e917e4127, type: 3}
+  - {fileID: 21300000, guid: 43022166649e2ef4b8fb232c3475b75a, type: 3}
+  - {fileID: 21300000, guid: 4057460872f4c7644a3484bfb5fb596d, type: 3}
+  - {fileID: 21300000, guid: 2cf35ca0c6764d24ca21580b2b8abe92, type: 3}
+  - {fileID: 21300000, guid: 655df8129464e4746833a25fb573cc48, type: 3}
+  - {fileID: 21300000, guid: 24ee338714f68704a85750600633990c, type: 3}
+  - {fileID: 21300000, guid: 62f3f60a0710d6e4ca8919f80bc1101a, type: 3}
+  - {fileID: 21300000, guid: db79dd677ae6fb04e8a5ded5072449db, type: 3}
+  - {fileID: 21300000, guid: 327d3fadb98925f4d82005b2b1e73dba, type: 3}
+  - {fileID: 21300000, guid: 18987b5080e2d53418fc61860989b856, type: 3}
+  - {fileID: 21300000, guid: c3508dd9e614cae46b6b6d0ccd1c68e2, type: 3}
+  - {fileID: 21300000, guid: 6af47d1b7279d064086aafd01b7aed62, type: 3}
+  - {fileID: 21300000, guid: 29f42536e5f3aa84ba8a9d66be747c7f, type: 3}
+  - {fileID: 21300000, guid: af14e995e32cbe042915b1eb8cefa67f, type: 3}
   speechBoxSpeed: 0.1
 --- !u!4 &1192069811
 Transform:
@@ -595,7 +600,7 @@ Transform:
   m_GameObject: {fileID: 1621504303}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 435, y: 195, z: -10}
+  m_LocalPosition: {x: 407, y: 193, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -635,8 +640,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.7844, y: 0.0000538826}
-  m_SizeDelta: {x: 101.8232, y: 25.54}
+  m_AnchoredPosition: {x: 9.1549, y: -1.8919}
+  m_SizeDelta: {x: 130.6296, y: 29.323}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1811370713
 MonoBehaviour:
@@ -721,7 +726,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -35.671814, y: 0, z: -27.728943, w: 1.0078506}
+  m_margin: {x: 4.1801224, y: 0, z: -0.80192566, w: 1.0078506}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1030,4 +1035,3 @@ SceneRoots:
   - {fileID: 1192069811}
   - {fileID: 2079665233}
   - {fileID: 1884905685}
-  - {fileID: 690368501}
