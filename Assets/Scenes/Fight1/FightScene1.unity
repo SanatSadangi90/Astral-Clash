@@ -3795,7 +3795,8 @@ MonoBehaviour:
   unitName: 
   unitMaxHP: 0
   unitCurrentHP: 0
-  attackArr: 
+  attackArr: 0400000002000000
+  splashArr: 0000000001000000
 --- !u!1 &1881858534
 GameObject:
   m_ObjectHideFlags: 0

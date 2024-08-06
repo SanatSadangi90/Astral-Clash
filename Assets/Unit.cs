@@ -8,6 +8,7 @@ public class Unit : MonoBehaviour
     public int unitMaxHP;
     public int unitCurrentHP;
     public int[] attackArr;
+    public int[] splashArr;
 
 
     public bool takeDamage(int damage)
