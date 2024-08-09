@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e315760f13698d42bbed27b21221ed6, type: 3}
-  m_Name: Colin
+  m_Name: Brandon
   m_EditorClassIdentifier: 
-  unitName: Colin
-  unitMaxHP: 10
-  unitCurrentHP: 10
-  attackArr: 0400000002000000
-  splashArr: 0000000001000000
-  artwork: {fileID: 21300000, guid: 83e4d0bdf01c407469295e37f75c4620, type: 3}
+  unitName: Brandon
+  unitMaxHP: 12
+  unitCurrentHP: 12
+  attackArr: 
+  splashArr: 
+  artwork: {fileID: 21300000, guid: 035e6b94fc19e484c82aef2e22b1ae32, type: 3}
