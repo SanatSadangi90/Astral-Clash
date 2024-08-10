@@ -49,12 +49,23 @@ public class GameState : MonoBehaviour
 
     public void ColinFirst()
     {
+        battleDisplay.text = "Colin attacks first!";
         colinSelect.gameObject.SetActive(false);
         brandonSelect.gameObject.SetActive(false);
         foreach (Button attack in colinButtons)
         {
             attack.gameObject.SetActive(true);
         }
+    }
+
+    public void colinDropkick()
+    {
+        battleDisplay.text = "Who will you attack?";
+        foreach (Button attack in colinButtons)
+        {
+            attack.gameObject.SetActive(false);
+        }
+
     }
 
     //add 
