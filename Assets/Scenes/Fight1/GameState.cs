@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 
 public enum BattleState { START, PLAYER1TURN, PLAYER2TURN, ENEMY, WIN, LOSS };
 
 public class GameState : MonoBehaviour
 {
-    public Person protagonists; // Character game objects
+    public Person[] protagonists; // Character game objects
     public Person[] antagonists;
 
     public Button colinSelect;
@@ -18,7 +19,7 @@ public class GameState : MonoBehaviour
 
 
 
-    public Text battleDisplay; // Battle display
+    public TextMeshProUGUI battleDisplay; // Battle display
 
     public BattleState state; // Battle Game State
 
