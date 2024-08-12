@@ -299,6 +299,7 @@ MonoBehaviour:
   - {fileID: 966671692}
   brandonButtons:
   - {fileID: 153973147}
+  mousePos: {x: 0, y: 0}
   battleDisplay: {fileID: 1333303653}
   state: 0
 --- !u!4 &8634706
@@ -3270,8 +3271,8 @@ RectTransform:
   - {fileID: 96055877}
   - {fileID: 1333303652}
   - {fileID: 1419709044}
-  - {fileID: 876629787}
   - {fileID: 1536901433}
+  - {fileID: 876629787}
   - {fileID: 677748340}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4044,7 +4045,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612024256}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9974617, y: 0.9974617, z: 0.9974617}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4052,7 +4053,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1612024258
@@ -4517,7 +4518,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -291.15, y: -162.64}
+  m_AnchoredPosition: {x: -291.14996, y: -162.64001}
   m_SizeDelta: {x: 122.41, y: -141.06}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1830853876

@@ -17,6 +17,7 @@ public class GameState : MonoBehaviour
     public Button[] colinButtons;
     public Button[] brandonButtons;
 
+    public Vector2 mousePos;
 
 
     public TextMeshProUGUI battleDisplay; // Battle display
@@ -29,8 +30,7 @@ public class GameState : MonoBehaviour
     {
         state = BattleState.START;
         BattleSetup();
-        
-        
+       
     }
     void BattleSetup()
     {
@@ -65,13 +65,19 @@ public class GameState : MonoBehaviour
         {
             attack.gameObject.SetActive(false);
         }
-
+        
+        
     }
 
     //add 
     // Update is called once per frame
     void Update()
     {
-
+        mousePos = Input.mousePosition;
+        RaycastHit2D selected = Physics2D.Raycast(mousePos, -Vector2.up);
+        if (selected)
+        {
+            Debug.Log("Hit detected!");
+        }
     }
 }
